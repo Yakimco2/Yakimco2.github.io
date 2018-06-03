@@ -1,0 +1,23 @@
+{
+  "name": "yakimco2.github.io",
+  "version": "1.0.0",
+  "description": "JS for fun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yakimco2/Yakimco2.github.io.git"
+  },
+  "author": "Yakim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yakimco2/Yakimco2.github.io/issues"
+  },
+  "homepage": "https://github.com/Yakimco2/Yakimco2.github.io/index.html",
+  "dependencies": {
+    "browser-sync": "^2.24.4",
+    "jquery": "^3.3.1"
+  }
+}
