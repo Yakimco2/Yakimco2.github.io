@@ -19,7 +19,7 @@ function prioritySort(array, dataPriority) {
                 index = -1;
             }
             return index;
-        }
+        };
 
         if(dataPriority.indexOf(leftType) > dataPriority.indexOf(rightType)){
             index = 1;
@@ -31,8 +31,7 @@ function prioritySort(array, dataPriority) {
             equal()
         }
         return index;
-
-    });
+    })
 }
 
 function stringNull(value) {
@@ -40,7 +39,7 @@ function stringNull(value) {
 
 
     if(typeof value === null) {
-        typeIndex = 'null'
+        typeIndex = 'null';
     }
 
     return typeIndex;
